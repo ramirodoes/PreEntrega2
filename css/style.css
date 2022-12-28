@@ -1,0 +1,46 @@
+body{
+    background-image: url(../img/backgrounds/guante.webp);
+    background-repeat: no-repeat;    
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: top;
+}
+
+/* BOTONERA */
+    
+    .navbar-nav > li > .dropdown-menu { background-color: #FF0000; }
+
+    #botonera ul li a {
+        color: rgb(255, 255, 255);
+        font-family: 'Lucida Sans';
+        background-image: linear-gradient(currentColor, currentColor);
+   		background-position: 0% 100%;
+    	background-repeat: no-repeat;
+    	background-size: 0% 2px;
+    	transition: background-size .3s;
+    }
+
+    #botonera ul li a:hover{
+        color: rgb(219, 171, 10);
+        font-weight: 600;
+        /*Subrayado animado*/
+        background-size: 100% 2px;
+    }
+
+/* MENÚ */
+    
+    h1 {
+        outline: thick ridge white;
+        outline-style: groove;
+    }
+
+    h1, h2, h3, h4 {
+        color: white;
+        text-align: center;        
+    }
+
+    p, figcaption {
+        font-family: 'lucida sans';
+        color: white;
+        text-align: center;
+    }
