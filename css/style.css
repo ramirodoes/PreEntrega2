@@ -45,4 +45,17 @@ body{
         text-align: center;
     }
     
-    
+    p1 {
+        color: green;
+        font-family: 'Lucida Sans';
+        font-style: oblique;
+    }
+    p3 {
+        color: #FF0000;
+        font-family: 'Lucida sans';
+        font-style: oblique;
+    }
+
+    .card-body {
+        background-image: linear-gradient(to right, rgb(236, 215, 215), rgb(205, 228, 152));
+    }
