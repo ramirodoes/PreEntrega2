@@ -1,4 +1,4 @@
-GIT
+Repositorio
 https://github.com/ramirodoes/entrega2Coder.git
 
 Deployment
